@@ -1,0 +1,14 @@
+{
+  "name": "bcry",
+  "version": "0.0.0",
+  "description": "BCRY22",
+  "main": "gcd.js",
+  "scripts": {
+    "dev": "nodemon gcd.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
