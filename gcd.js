@@ -26,4 +26,8 @@ function extgcd(a, b) {
 	};
 }
 
-console.log(extgcd(321, 123));
+/** spuštění skriptu */
+console.log(`[gcd.js]: start`);
+const result = extgcd(123, 321);
+console.log(`[gcd.js]: extgcd(123, 321) = ${ JSON.stringify(result) }`);
+console.log(`[gcd.js]: stop`);
