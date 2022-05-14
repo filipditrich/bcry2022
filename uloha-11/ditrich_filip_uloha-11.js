@@ -1,4 +1,4 @@
-import { decodeHill, encodeHill } from "./hill-cipher.js";
+import { decodeHill, encodeHill } from "./utils.js";
 
 /** vstupní klíč jako matice */
 const KEY_MATRIX = [

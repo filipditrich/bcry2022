@@ -1,4 +1,4 @@
-import {extgcd} from "../uloha-06/gcd.js";
+import {extgcd} from "../uloha-06/utils.js";
 import { getRandPrime, getRandNum, getPrimes } from "../uloha-10/utils.js";
 
 for (let i = 0; i < 500; i++) {

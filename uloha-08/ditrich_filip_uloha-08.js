@@ -1,4 +1,4 @@
-import { getKeyLength } from "./kasiski.js";
+import { getKeyLength } from "./utils.js";
 
 /** vstupní text */
 const MESSAGE = "PTGBWRMRDHBLYOTAVUUPNAGUTZMXPVNVSHMUMSHMVKOHGRTKJMEQIHERVMPGRMXHGQKXFIGWMYTCPKYDAWCUTFBNLYNBNLKBNOUYBZSHMVWTAARWXFLUITUHAQYUHGMJMHEPGCBAOLVNALKKBANUYFNBOVGGPKVKLEOAA";
@@ -6,6 +6,6 @@ const MESSAGE = "PTGBWRMRDHBLYOTAVUUPNAGUTZMXPVNVSHMUMSHMVKOHGRTKJMEQIHERVMPGRMX
 console.log(getKeyLength(MESSAGE));
 
 /** spuštění skriptu */
-console.log(`[uloha-8]: start`);
-console.log(`[uloha-8]: getKeyLength("${ MESSAGE }") = ${ getKeyLength(MESSAGE) }`);
-console.log(`[uloha-8]: stop`);
+console.log(`[uloha-08]: start`);
+console.log(`[uloha-08]: getKeyLength("${ MESSAGE }") = ${ getKeyLength(MESSAGE) }`);
+console.log(`[uloha-08]: stop`);

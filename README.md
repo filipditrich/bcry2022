@@ -1,7 +1,7 @@
 # BCRY 2022 Domácí úkol
 Řešitel: [Ditrich Filip](mailto:filip.ditrich@plus4u.net)
 
-## Zadání
+## Popis úkolu
 
 Řešení obsahuje několik úloh s rozdílnými (maximálními) bodovými ohodnoceními. Suma bodů ze všech úloh je **45 bodů**.
 Studenti si mohou vybrat libovolnou podmnožinu úloh a řešení těchto úloh zaslat. Celkově je ovšem počet bodů omezen **maximálním počtem bodů z úkolu**, což je
@@ -35,6 +35,10 @@ crypto2021_novak_jan.zip
 ```
 
 Pokud je potřeba k řešení zaslat i poznámky, založte prosím v hlavním adresáři archivu další soubor readme.txt.
+
+## Instrukce ke spuštění programovacích úloh
+Pro spuštění programovacích úloh je nutné použít `npm` nebo jiný package manager.
+Úlohy je možné spustit z kořenové složky zavoláním příkazu `npm run uloha-X`, kde X je číslo úlohy. Spustitelné programovací úlohy jsou: [Úloha 6](#-úloha-6), [Úloha 7](#-úloha-7), [Úloha 8](#-úloha-8), [Úloha 9](#-úloha-9), [Úloha 10](#-úloha-10), [Úloha 11](#-úloha-11). 
 
 ## Zadání úloh
 
@@ -89,7 +93,7 @@ Dále víme, že pravděpodobnost, že byl email označen jako spam jsou pro jed
 Pro zvolený email víme, že byl označen jako spam. Jaká je pravděpodobnost, že se jedná o případ 1? O případ 2? O případ
 3?
 
-### 🏗 Úloha 5
+### ✅ [Úloha 5](./uloha-05)
 
 **[3 body]** Máme dvě klasické kostky, každou o 6 stranách. Navrhněte binární Huffmanův kód kódující součet dvou
 současných hodů. Vypočtěte pro tento kód kompresní faktor.
