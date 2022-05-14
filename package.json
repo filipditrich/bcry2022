@@ -2,9 +2,9 @@
   "name": "bcry",
   "version": "0.0.0",
   "description": "BCRY22",
-  "main": "gcd.js",
+  "main": "uloha-6/gcd.js",
   "scripts": {
-    "dev": "nodemon hill-cipher.js"
+    "dev": "nodemon uloha-9/s-box.js"
   },
   "author": "",
   "license": "ISC",
