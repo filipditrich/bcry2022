@@ -103,7 +103,7 @@ současných hodů. Vypočtěte pro tento kód kompresní faktor.
 **[3 body]** Máme dvě čísla `a` a `b`, pro které platí `gcd(a,b) = d`. Uvažujeme prvočísla `k`, `l` taková, že `gcd(ak,bl) = d`.
 Platí toto pro obecná prvočísla či musí být splněna nějaká podmínka? Pokud ano, tak jaká?
 
-### 🏗 Úloha 8
+### ✅ [Úloha 8](./uloha-8)
 
 **[5 bodů]** Uvažujte text
 `PTGBWRMRDHBLYOTAVUUPNAGUTZMXPVNVSHMUMSHMVKOHGRTKJMEQIHERVMPGRMXHGQKXFIGWMYTCPKYDAWCUTFBNLYNBNLKBNOUYBZSHMVWTAARWXFLUITUHAQYUHGMJMHEPGCBAOLVNALKKBANUYFNBOVGGPKVKLEOAA`.
