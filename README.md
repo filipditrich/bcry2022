@@ -53,7 +53,7 @@ podmínky
 
 Určete kolik je pro takové heslo kombinací.
 
-### 🏗 Úloha 2
+### ✅ [Úloha 2](./uloha-2)
 
 **[2 body]** Rozhodli jsme se místo klasické binární abecedy používat abecedu ternární. V této abecedě budeme kódovat
 čísla opět v posloupnostech znaků délky 8 (tj. obdobně jako u binárních kódů do bajtů). Příkladem tedy může být
