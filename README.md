@@ -4,8 +4,7 @@
 ## Zadání
 
 Řešení obsahuje několik úloh s rozdílnými (maximálními) bodovými ohodnoceními. Suma bodů ze všech úloh je **45 bodů**.
-Studenti si mohou vybrat libovolnou podmnožinu úloh a řešení těchto úloh zaslat. Celkově je ovšem počet bodů omezen **
-maximálním počtem bodů z úkolu**, což je
+Studenti si mohou vybrat libovolnou podmnožinu úloh a řešení těchto úloh zaslat. Celkově je ovšem počet bodů omezen **maximálním počtem bodů z úkolu**, což je
 
 - Maximální bodový zisk z úkolu 35 bodů
 
