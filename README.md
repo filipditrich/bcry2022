@@ -95,7 +95,7 @@ Pro zvolený email víme, že byl označen jako spam. Jaká je pravděpodobnost,
 **[3 body]** Máme dvě klasické kostky, každou o 6 stranách. Navrhněte binární Huffmanův kód kódující součet dvou
 současných hodů. Vypočtěte pro tento kód kompresní faktor.
 
-### ✅ Úloha 6
+### ✅ [Úloha 6](./uloha-6)
 
 **[2 body]** Vypište hodnoty jednotlivých `a=123` a `b=321` při volaní rekurzivní funkce pro největšího společného dělitele `gcd(a,b)`. Jaké jsou výsledné hodnoty Bezoutových koeficientů?
 
@@ -110,7 +110,7 @@ Platí toto pro obecná prvočísla či musí být splněna nějaká podmínka? 
 `PTGBWRMRDHBLYOTAVUUPNAGUTZMXPVNVSHMUMSHMVKOHGRTKJMEQIHERVMPGRMXHGQKXFIGWMYTCPKYDAWCUTFBNLYNBNLKBNOUYBZSHMVWTAARWXFLUITUHAQYUHGMJMHEPGCBAOLVNALKKBANUYFNBOVGGPKVKLEOAA`.
 Pokuste se určit velikost klíče pomocí Kasiskiho textu.
 
-### ✅  Úloha 9
+### ✅  [Úloha 9](./uloha-9)
 
 **[7 bodů]** Proveďte substituci slova `“ahoj”` pomocí Rijndaelova substitučního boxu. Pro kódování písmen použijte osmibitové
 řetězce, například první znak `a` kódujte číslem 97 neboli binárně `01100001` a kódy následujících znaků budou vždy o 1
@@ -122,7 +122,7 @@ více, neboli kód znaku `b` bude 98 reprezentovaný `01100010`.
 klíče proveďte hladově (výběr nesoudělných a výběr klíče mezi) a inverzi a tím stanovení klíče proveďte pomocí Eulerovy
 věty. Ověřte si funkčnost kódování a dekódování pomocí jednoduchého příkladu.
 
-### ✅ Úloha 11
+### ✅ [Úloha 11](./uloha-11)
 
 **[5 body]** Uvažujte Hillovu šifru, kdy slova rozdělujte na dvojice znaků. Zvolte nějakou vhodnou matici pro klíč a
 proveďte šifrování slova `"unbelievable"`. Poté ověřte dešifrováním, že došlo ke správnému zašifrování.
