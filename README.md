@@ -109,13 +109,13 @@ Platí toto pro obecná prvočísla či musí být splněna nějaká podmínka? 
 `PTGBWRMRDHBLYOTAVUUPNAGUTZMXPVNVSHMUMSHMVKOHGRTKJMEQIHERVMPGRMXHGQKXFIGWMYTCPKYDAWCUTFBNLYNBNLKBNOUYBZSHMVWTAARWXFLUITUHAQYUHGMJMHEPGCBAOLVNALKKBANUYFNBOVGGPKVKLEOAA`.
 Pokuste se určit velikost klíče pomocí Kasiskiho textu.
 
-### ✅  [Úloha 9](./uloha-9)
+### ✅ [Úloha 9](./uloha-9)
 
 **[7 bodů]** Proveďte substituci slova `“ahoj”` pomocí Rijndaelova substitučního boxu. Pro kódování písmen použijte osmibitové
 řetězce, například první znak `a` kódujte číslem 97 neboli binárně `01100001` a kódy následujících znaků budou vždy o 1
 více, neboli kód znaku `b` bude 98 reprezentovaný `01100010`.
 
-### 🏗 Úloha 10
+### ✅ [Úloha 10](./uloha-10)
 
 **[9 bodů]** Naprogramujte jednoduchou RSA šifru, ve které jednotlivé kroky udělejte jednodušeji, například výběr veřejného
 klíče proveďte hladově (výběr nesoudělných a výběr klíče mezi) a inverzi a tím stanovení klíče proveďte pomocí Eulerovy
