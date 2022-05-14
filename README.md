@@ -38,7 +38,7 @@ Pokud je potřeba k řešení zaslat i poznámky, založte prosím v hlavním ad
 
 ## Zadání úloh
 
-### 🏗 Úloha 1
+### ✅ [Úloha 1](./uloha-1)
 
 ****[3 body]**** Systém po vás požaduje, aby vaše heslo bylo dostatečně bezpečné. Proto chce, aby splňovalo následující
 podmínky
