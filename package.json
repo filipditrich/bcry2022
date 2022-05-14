@@ -2,9 +2,9 @@
   "name": "bcry",
   "version": "0.0.0",
   "description": "BCRY22",
-  "main": "uloha-6/gcd.js",
+  "main": "uloha-06/gcd.js",
   "scripts": {
-    "dev": "nodemon uloha-10/index.js"
+    "dev": "nodemon uloha-07/index.js"
   },
   "author": "",
   "license": "ISC",

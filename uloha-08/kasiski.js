@@ -1,4 +1,4 @@
-import { extgcd } from "../uloha-6/gcd.js";
+import { extgcd } from "../uloha-06/gcd.js";
 
 /**
  * Vrátí index všech hledaných textových bloků vstupního řetezce

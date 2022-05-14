@@ -38,7 +38,7 @@ Pokud je potřeba k řešení zaslat i poznámky, založte prosím v hlavním ad
 
 ## Zadání úloh
 
-### ✅ [Úloha 1](./uloha-1)
+### ✅ [Úloha 1](./uloha-01)
 
 ****[3 body]**** Systém po vás požaduje, aby vaše heslo bylo dostatečně bezpečné. Proto chce, aby splňovalo následující
 podmínky
@@ -53,7 +53,7 @@ podmínky
 
 Určete kolik je pro takové heslo kombinací.
 
-### ✅ [Úloha 2](./uloha-2)
+### ✅ [Úloha 2](./uloha-02)
 
 **[2 body]** Rozhodli jsme se místo klasické binární abecedy používat abecedu ternární. V této abecedě budeme kódovat
 čísla opět v posloupnostech znaků délky 8 (tj. obdobně jako u binárních kódů do bajtů). Příkladem tedy může být
@@ -94,7 +94,7 @@ Pro zvolený email víme, že byl označen jako spam. Jaká je pravděpodobnost,
 **[3 body]** Máme dvě klasické kostky, každou o 6 stranách. Navrhněte binární Huffmanův kód kódující součet dvou
 současných hodů. Vypočtěte pro tento kód kompresní faktor.
 
-### ✅ [Úloha 6](./uloha-6)
+### ✅ [Úloha 6](./uloha-06)
 
 **[2 body]** Vypište hodnoty jednotlivých `a=123` a `b=321` při volaní rekurzivní funkce pro největšího společného dělitele `gcd(a,b)`. Jaké jsou výsledné hodnoty Bezoutových koeficientů?
 
@@ -103,13 +103,13 @@ současných hodů. Vypočtěte pro tento kód kompresní faktor.
 **[3 body]** Máme dvě čísla `a` a `b`, pro které platí `gcd(a,b) = d`. Uvažujeme prvočísla `k`, `l` taková, že `gcd(ak,bl) = d`.
 Platí toto pro obecná prvočísla či musí být splněna nějaká podmínka? Pokud ano, tak jaká?
 
-### ✅ [Úloha 8](./uloha-8)
+### ✅ [Úloha 8](./uloha-08)
 
 **[5 bodů]** Uvažujte text
 `PTGBWRMRDHBLYOTAVUUPNAGUTZMXPVNVSHMUMSHMVKOHGRTKJMEQIHERVMPGRMXHGQKXFIGWMYTCPKYDAWCUTFBNLYNBNLKBNOUYBZSHMVWTAARWXFLUITUHAQYUHGMJMHEPGCBAOLVNALKKBANUYFNBOVGGPKVKLEOAA`.
 Pokuste se určit velikost klíče pomocí Kasiskiho textu.
 
-### ✅ [Úloha 9](./uloha-9)
+### ✅ [Úloha 9](./uloha-09)
 
 **[7 bodů]** Proveďte substituci slova `“ahoj”` pomocí Rijndaelova substitučního boxu. Pro kódování písmen použijte osmibitové
 řetězce, například první znak `a` kódujte číslem 97 neboli binárně `01100001` a kódy následujících znaků budou vždy o 1

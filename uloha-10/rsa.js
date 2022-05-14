@@ -1,4 +1,4 @@
-import { extgcd } from "../uloha-6/gcd.js";
+import { extgcd } from "../uloha-06/gcd.js";
 import { expMod, getPrimes, getRandPrime } from "./utils.js";
 
 /**
