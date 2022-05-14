@@ -4,7 +4,7 @@
  * @param b
  * @returns {{x: (number|*|number), gcd: (*), y: (number|*)}|{x: (number|*|number), gcd: (*), y: number}|{x: number, gcd, y: number}}
  */
-function extgcd(a, b) {
+export function extgcd(a, b) {
 	/** prohození, pokud potřeba */
 	if (a < b) {
 		const swappedRes = extgcd(b, a);
@@ -25,9 +25,3 @@ function extgcd(a, b) {
 		y: (gcdWithRemRes.x - (Math.floor(a / b) * gcdWithRemRes.y))
 	};
 }
-
-/** spuštění skriptu */
-console.log(`[gcd.js]: start`);
-const result = extgcd(123, 321);
-console.log(`[gcd.js]: extgcd(123, 321) = ${ JSON.stringify(result) }`);
-console.log(`[gcd.js]: stop`);

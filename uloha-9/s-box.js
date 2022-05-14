@@ -27,16 +27,8 @@ const sBox =
  * @param {string} input - Řětězec, který se má substituovat
  * @returns {number[]} - Výsledné pole čísel
  */
-const subWord = function (input) {
+export const subWord = function (input) {
 	const word = input.split("").map((ch) => ch.charCodeAt(0));
 	for (let i = 0; i < 4; i++) word[i] = sBox[word[i]];
 	return word;
 };
-
-/** textový řetězec k substituci */
-const MESSAGE = 'ahoj';
-
-/** spuštění skriptu */
-console.log(`[s-box.js]: start`);
-console.log(`[s-box.js]: subWord("${MESSAGE}") = ${subWord(MESSAGE)}` );
-console.log(`[s-box.js]: stop`);
