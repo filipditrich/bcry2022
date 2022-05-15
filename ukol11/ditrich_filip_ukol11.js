@@ -1,4 +1,4 @@
-import { decodeHill, encodeHill } from "./utils.js";
+import { decodeHill, encodeHill } from "./ditrich_filip_ukol11.source.js";
 
 /** vstupní klíč jako matice */
 const KEY_MATRIX = [
@@ -15,9 +15,9 @@ const INV_KEY_MATRIX = [
 const MESSAGE = "unbelievable";
 
 /** spuštění skriptu */
-console.log(`[uloha-11]: start`);
+console.log(`[ukol-11]: start`);
 const encoded = encodeHill(MESSAGE, KEY_MATRIX);
-console.log(`[uloha-11]: encodeHill("${ MESSAGE }", ${ KEY_MATRIX }) = ${ encoded }`);
+console.log(`[ukol-11]: encodeHill("${ MESSAGE }", ${ KEY_MATRIX }) = ${ encoded }`);
 const decoded = decodeHill(encoded, INV_KEY_MATRIX);
-console.log(`[uloha-11]: decodeHill("${ encoded }", ${ INV_KEY_MATRIX }) = ${ decoded }`);
-console.log(`[uloha-11]: stop`);
+console.log(`[ukol-11]: decodeHill("${ encoded }", ${ INV_KEY_MATRIX }) = ${ decoded }`);
+console.log(`[ukol-11]: stop`);

@@ -1,4 +1,4 @@
-import { extgcd } from "../uloha-06/utils.js";
+import { extgcd } from "../ukol6/ditrich_filip_ukol6.source.js";
 
 /**
  * Vrátí index všech hledaných textových bloků vstupního řetezce

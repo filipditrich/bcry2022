@@ -1,5 +1,5 @@
-import { extgcd } from "../uloha-06/utils.js";
-import { expMod, getPrimes, getRandPrime } from "./utils.js";
+import { extgcd } from "../ukol6/ditrich_filip_ukol6.source.js";
+import { expMod, getPrimes, getRandPrime } from "./ditrich_filip_ukol10.utils.js";
 
 /**
  * Funkce, která vygeneruje privátní a veřejný klíč pro jednoduchou RSA šifru.
