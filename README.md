@@ -36,13 +36,18 @@ crypto2021_novak_jan.zip
 
 Pokud je potřeba k řešení zaslat i poznámky, založte prosím v hlavním adresáři archivu další soubor readme.txt.
 
-## Instrukce ke spuštění programovacích úloh
-Pro spuštění programovacích úloh je nutné použít `npm` nebo jiný package manager.
-Úlohy je možné spustit z kořenové složky zavoláním příkazu `npm run uloha-X`, kde X je číslo úlohy. Spustitelné programovací úlohy jsou: [Úloha 6](#-úloha-6), [Úloha 7](#-úloha-7), [Úloha 8](#-úloha-8), [Úloha 9](#-úloha-9), [Úloha 10](#-úloha-10), [Úloha 11](#-úloha-11). 
+## Instrukce ke spuštění programovacích úkolů
+Pro spuštění programovacího úkolu z kořenové složky je možné použít `npm` či jiný package manager.
+Úkoly je možné spustit z kořenové složky zavoláním příkazu `npm run ukolX`, kde X je číslo úkolu.
+
+Pro spuštění programovacích úkolů bez použítí package manageru je třeba zavolat `node` s parametrem `ukolX/ditrich_filip_ukolX.js` (pokud jsme v kořenové složce), kde `X` je číslo úkolu.
+
+Každá složka s řešením programovacího úkolu obsahuje soubor `ditrich_filip_ukolX.js`, která spustí demostraci řešení úkolu.
+Každý tento programovací úkol má zdrojové soubory s implementaci a s různými pomocnými funkcemi.
 
 ## Zadání úloh
 
-### ✅️ [Úloha 1](./uloha-01)
+### ✅️ [Úloha 1](./ukol1)
 
 ****[3 body]**** Systém po vás požaduje, aby vaše heslo bylo dostatečně bezpečné. Proto chce, aby splňovalo následující
 podmínky
@@ -57,7 +62,7 @@ podmínky
 
 Určete kolik je pro takové heslo kombinací.
 
-### ✅ [Úloha 2](./uloha-02)
+### ✅ [Úloha 2](./ukol2)
 
 **[2 body]** Rozhodli jsme se místo klasické binární abecedy používat abecedu ternární. V této abecedě budeme kódovat
 čísla opět v posloupnostech znaků délky 8 (tj. obdobně jako u binárních kódů do bajtů). Příkladem tedy může být
@@ -69,13 +74,13 @@ například číslo
 
 Předpokládejme, že chceme kódovat pouze kladná čísla. Kolik čísel je možné v této nové abecedě kódovat?
 
-### ✅ [Úloha 3](./uloha-03)
+### ✅ [Úloha 3](./ukol3)
 
 **[3 body]** Provedeme 3 nezávislé pokusy o odchycení textu. Pravděpodobnost odchycení komunikace je `0.4`. S jakou
 pravděpodobností se nám podaří prolomit šifru komunikace, pokud víme, že pravděpodobnost jejího prolomení je při získání
 1 textu `0.2`, při získání 2 textů `0.5` a při získání všech třech textů `0.8`.
 
-### ✅ [Úloha 4](./uloha-04)
+### ✅ [Úloha 4](./ukol4)
 
 **[3 body]** Jednoduchý spam filter umí rozlišovat 3 typy spamů: podvodné reklamy (případ 1), phishing (případ 2) a
 ostatní (případ 3). Ze sledování provozu je jasné, že pravděpodobnosti těchto případů jsou
@@ -93,39 +98,39 @@ Dále víme, že pravděpodobnost, že byl email označen jako spam jsou pro jed
 Pro zvolený email víme, že byl označen jako spam. Jaká je pravděpodobnost, že se jedná o případ 1? O případ 2? O případ
 3?
 
-### ✅ [Úloha 5](./uloha-05)
+### ✅ [Úloha 5](./ukol5)
 
 **[3 body]** Máme dvě klasické kostky, každou o 6 stranách. Navrhněte binární Huffmanův kód kódující součet dvou
 současných hodů. Vypočtěte pro tento kód kompresní faktor.
 
-### ✅ [Úloha 6](./uloha-06)
+### ✅ [Úloha 6](./ukol6)
 
 **[2 body]** Vypište hodnoty jednotlivých `a=123` a `b=321` při volaní rekurzivní funkce pro největšího společného dělitele `gcd(a,b)`. Jaké jsou výsledné hodnoty Bezoutových koeficientů?
 
-### ✅ [Úloha 7](./uloha-07)
+### ✅ [Úloha 7](./ukol7)
 
 **[3 body]** Máme dvě čísla `a` a `b`, pro které platí `gcd(a,b) = d`. Uvažujeme prvočísla `k`, `l` taková, že `gcd(ak,bl) = d`.
 Platí toto pro obecná prvočísla či musí být splněna nějaká podmínka? Pokud ano, tak jaká?
 
-### ✅ [Úloha 8](./uloha-08)
+### ✅ [Úloha 8](./ukol8)
 
 **[5 bodů]** Uvažujte text
 `PTGBWRMRDHBLYOTAVUUPNAGUTZMXPVNVSHMUMSHMVKOHGRTKJMEQIHERVMPGRMXHGQKXFIGWMYTCPKYDAWCUTFBNLYNBNLKBNOUYBZSHMVWTAARWXFLUITUHAQYUHGMJMHEPGCBAOLVNALKKBANUYFNBOVGGPKVKLEOAA`.
 Pokuste se určit velikost klíče pomocí Kasiskiho textu.
 
-### ✅ [Úloha 9](./uloha-09)
+### ✅ [Úloha 9](./ukol9)
 
 **[7 bodů]** Proveďte substituci slova `“ahoj”` pomocí Rijndaelova substitučního boxu. Pro kódování písmen použijte osmibitové
 řetězce, například první znak `a` kódujte číslem 97 neboli binárně `01100001` a kódy následujících znaků budou vždy o 1
 více, neboli kód znaku `b` bude 98 reprezentovaný `01100010`.
 
-### ✅ [Úloha 10](./uloha-10)
+### ✅ [Úloha 10](./ukol10)
 
 **[9 bodů]** Naprogramujte jednoduchou RSA šifru, ve které jednotlivé kroky udělejte jednodušeji, například výběr veřejného
 klíče proveďte hladově (výběr nesoudělných a výběr klíče mezi) a inverzi a tím stanovení klíče proveďte pomocí Eulerovy
 věty. Ověřte si funkčnost kódování a dekódování pomocí jednoduchého příkladu.
 
-### ✅ [Úloha 11](./uloha-11)
+### ✅ [Úloha 11](./ukol11)
 
 **[5 body]** Uvažujte Hillovu šifru, kdy slova rozdělujte na dvojice znaků. Zvolte nějakou vhodnou matici pro klíč a
 proveďte šifrování slova `"unbelievable"`. Poté ověřte dešifrováním, že došlo ke správnému zašifrování.
