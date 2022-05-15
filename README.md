@@ -69,7 +69,7 @@ například číslo
 
 Předpokládejme, že chceme kódovat pouze kladná čísla. Kolik čísel je možné v této nové abecedě kódovat?
 
-### 🏗 Úloha 3
+### ✅ [Úloha 3](./uloha-03)
 
 **[3 body]** Provedeme 3 nezávislé pokusy o odchycení textu. Pravděpodobnost odchycení komunikace je `0.4`. S jakou
 pravděpodobností se nám podaří prolomit šifru komunikace, pokud víme, že pravděpodobnost jejího prolomení je při získání
