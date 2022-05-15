@@ -4,7 +4,7 @@
   "description": "BCRY22",
   "main": "uloha-06/utils.js",
   "scripts": {
-    "dev": "nodemon uloha-07/index.js",
+    "dev": "nodemon uloha-10/ditrich_filip_uloha-10.js",
     "uloha-01": "echo \"Úloha 1 nemá spuštitelné řešení\" && exit 1",
     "uloha-02": "echo \"Úloha 2 nemá spuštitelné řešení\" && exit 1",
     "uloha-03": "echo \"Úloha 3 nemá spuštitelné řešení\" && exit 1",
