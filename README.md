@@ -42,7 +42,7 @@ Pro spuštění programovacích úloh je nutné použít `npm` nebo jiný packag
 
 ## Zadání úloh
 
-### ‼️ [Úloha 1](./uloha-01)
+### ✅️ [Úloha 1](./uloha-01)
 
 ****[3 body]**** Systém po vás požaduje, aby vaše heslo bylo dostatečně bezpečné. Proto chce, aby splňovalo následující
 podmínky
@@ -102,7 +102,7 @@ současných hodů. Vypočtěte pro tento kód kompresní faktor.
 
 **[2 body]** Vypište hodnoty jednotlivých `a=123` a `b=321` při volaní rekurzivní funkce pro největšího společného dělitele `gcd(a,b)`. Jaké jsou výsledné hodnoty Bezoutových koeficientů?
 
-### 🏗 Úloha 7
+### ✅ [Úloha 7](./uloha-07)
 
 **[3 body]** Máme dvě čísla `a` a `b`, pro které platí `gcd(a,b) = d`. Uvažujeme prvočísla `k`, `l` taková, že `gcd(ak,bl) = d`.
 Platí toto pro obecná prvočísla či musí být splněna nějaká podmínka? Pokud ano, tak jaká?
