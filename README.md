@@ -42,7 +42,7 @@ Pro spuštění programovacích úloh je nutné použít `npm` nebo jiný packag
 
 ## Zadání úloh
 
-### ✅ [Úloha 1](./uloha-01)
+### ‼️ [Úloha 1](./uloha-01)
 
 ****[3 body]**** Systém po vás požaduje, aby vaše heslo bylo dostatečně bezpečné. Proto chce, aby splňovalo následující
 podmínky
@@ -75,7 +75,7 @@ Předpokládejme, že chceme kódovat pouze kladná čísla. Kolik čísel je mo
 pravděpodobností se nám podaří prolomit šifru komunikace, pokud víme, že pravděpodobnost jejího prolomení je při získání
 1 textu `0.2`, při získání 2 textů `0.5` a při získání všech třech textů `0.8`.
 
-### 🏗 Úloha 4
+### ✅ [Úloha 4](./uloha-04)
 
 **[3 body]** Jednoduchý spam filter umí rozlišovat 3 typy spamů: podvodné reklamy (případ 1), phishing (případ 2) a
 ostatní (případ 3). Ze sledování provozu je jasné, že pravděpodobnosti těchto případů jsou
