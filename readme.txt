@@ -6,4 +6,4 @@ Pro spuštění programovacího úkolu z kořenové složky je možné použít 
 Pro spuštění programovacích úkolů bez použítí package manageru je třeba zavolat `node` s parametrem `ukolX/ditrich_filip_ukolX.js` (pokud jsme v kořenové složce), kde `X` je číslo úkolu.
 
 Každá složka s řešením programovacího úkolu obsahuje soubor `ditrich_filip_ukolX.js`, která spustí demostraci řešení úkolu.
-Každý tento programovací úkol má zdrojové soubory s implementaci a s různými pomocnými funkcemi.
+Každý tento programovací úkol má zdrojové soubory s implementaci v souboru `ditrich_filip_ukolX.source.js`. Některé úlohy mají i další pomocné soubory, např.: `ditrich_filip_ukolX.utils.js`.

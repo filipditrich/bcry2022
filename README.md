@@ -1,10 +1,12 @@
 # BCRY 2022 Domácí úkol
+
 Řešitel: [Ditrich Filip](mailto:filip.ditrich@plus4u.net)
 
 ## Popis úkolu
 
 Řešení obsahuje několik úloh s rozdílnými (maximálními) bodovými ohodnoceními. Suma bodů ze všech úloh je **45 bodů**.
-Studenti si mohou vybrat libovolnou podmnožinu úloh a řešení těchto úloh zaslat. Celkově je ovšem počet bodů omezen **maximálním počtem bodů z úkolu**, což je
+Studenti si mohou vybrat libovolnou podmnožinu úloh a řešení těchto úloh zaslat. Celkově je ovšem počet bodů omezen **
+maximálním počtem bodů z úkolu**, což je
 
 - Maximální bodový zisk z úkolu 35 bodů
 
@@ -23,27 +25,31 @@ jména studenta, obsahující adresáře s čísly a názvy odevzdávaných úlo
 
 Příklad: Pokud pan Josef Novák bude ve svém odevzdání zasílat řešení úlohy 1 (problémově orientované) a úlohy 4 (
 programovací). Odevzdávaný soubor by tedy měl vypadat následovně:
+
 ```angular2html
 crypto2021_novak_jan.zip
-     ukol1
-         novak_jan_ukol1.pdf # sken dokumentu s řešením či export libreoffice řešení 
-     ukol4
-         novak_jan_ukol4.js # javascipt ukazujici realizaci ulohy
-         ukazka.json # pripadne datove soubory
-         readme.txt # soubor popisujici potrebne kroky ke spusteni - tedy potrebne
-         # knihovny (uvazujeme jen standardni) a sekvenci kroku ke spusteni
+ukol1
+novak_jan_ukol1.pdf # sken dokumentu s řešením či export libreoffice řešení
+ukol4
+novak_jan_ukol4.js # javascipt ukazujici realizaci ulohy
+ukazka.json # pripadne datove soubory
+readme.txt # soubor popisujici potrebne kroky ke spusteni - tedy potrebne
+# knihovny (uvazujeme jen standardni) a sekvenci kroku ke spusteni
 ```
 
 Pokud je potřeba k řešení zaslat i poznámky, založte prosím v hlavním adresáři archivu další soubor readme.txt.
 
 ## Instrukce ke spuštění programovacích úkolů
-Pro spuštění programovacího úkolu z kořenové složky je možné použít `npm` či jiný package manager.
-Úkoly je možné spustit z kořenové složky zavoláním příkazu `npm run ukolX`, kde X je číslo úkolu.
 
-Pro spuštění programovacích úkolů bez použítí package manageru je třeba zavolat `node` s parametrem `ukolX/ditrich_filip_ukolX.js` (pokud jsme v kořenové složce), kde `X` je číslo úkolu.
+Pro spuštění programovacího úkolu z kořenové složky je možné použít `npm` či jiný package manager. Úkoly je možné
+spustit z kořenové složky zavoláním příkazu `npm run ukolX`, kde X je číslo úkolu.
 
-Každá složka s řešením programovacího úkolu obsahuje soubor `ditrich_filip_ukolX.js`, která spustí demostraci řešení úkolu.
-Každý tento programovací úkol má zdrojové soubory s implementaci a s různými pomocnými funkcemi.
+Pro spuštění programovacích úkolů bez použítí package manageru je třeba zavolat `node` s
+parametrem `ukolX/ditrich_filip_ukolX.js` (pokud jsme v kořenové složce), kde `X` je číslo úkolu.
+
+Každá složka s řešením programovacího úkolu obsahuje soubor `ditrich_filip_ukolX.js`, která spustí demostraci řešení
+úkolu. Každý tento programovací úkol má zdrojové soubory s implementaci v souboru `ditrich_filip_ukolX.source.js`.
+Některé úlohy mají i další pomocné soubory, např.: `ditrich_filip_ukolX.utils.js`.
 
 ## Zadání úloh
 
@@ -105,30 +111,31 @@ současných hodů. Vypočtěte pro tento kód kompresní faktor.
 
 ### ✅ [Úloha 6](./ukol6)
 
-**[2 body]** Vypište hodnoty jednotlivých `a=123` a `b=321` při volaní rekurzivní funkce pro největšího společného dělitele `gcd(a,b)`. Jaké jsou výsledné hodnoty Bezoutových koeficientů?
+**[2 body]** Vypište hodnoty jednotlivých `a=123` a `b=321` při volaní rekurzivní funkce pro největšího společného
+dělitele `gcd(a,b)`. Jaké jsou výsledné hodnoty Bezoutových koeficientů?
 
 ### ✅ [Úloha 7](./ukol7)
 
-**[3 body]** Máme dvě čísla `a` a `b`, pro které platí `gcd(a,b) = d`. Uvažujeme prvočísla `k`, `l` taková, že `gcd(ak,bl) = d`.
-Platí toto pro obecná prvočísla či musí být splněna nějaká podmínka? Pokud ano, tak jaká?
+**[3 body]** Máme dvě čísla `a` a `b`, pro které platí `gcd(a,b) = d`. Uvažujeme prvočísla `k`, `l` taková,
+že `gcd(ak,bl) = d`. Platí toto pro obecná prvočísla či musí být splněna nějaká podmínka? Pokud ano, tak jaká?
 
 ### ✅ [Úloha 8](./ukol8)
 
 **[5 bodů]** Uvažujte text
-`PTGBWRMRDHBLYOTAVUUPNAGUTZMXPVNVSHMUMSHMVKOHGRTKJMEQIHERVMPGRMXHGQKXFIGWMYTCPKYDAWCUTFBNLYNBNLKBNOUYBZSHMVWTAARWXFLUITUHAQYUHGMJMHEPGCBAOLVNALKKBANUYFNBOVGGPKVKLEOAA`.
-Pokuste se určit velikost klíče pomocí Kasiskiho textu.
+`PTGBWRMRDHBLYOTAVUUPNAGUTZMXPVNVSHMUMSHMVKOHGRTKJMEQIHERVMPGRMXHGQKXFIGWMYTCPKYDAWCUTFBNLYNBNLKBNOUYBZSHMVWTAARWXFLUITUHAQYUHGMJMHEPGCBAOLVNALKKBANUYFNBOVGGPKVKLEOAA`
+. Pokuste se určit velikost klíče pomocí Kasiskiho textu.
 
 ### ✅ [Úloha 9](./ukol9)
 
-**[7 bodů]** Proveďte substituci slova `“ahoj”` pomocí Rijndaelova substitučního boxu. Pro kódování písmen použijte osmibitové
-řetězce, například první znak `a` kódujte číslem 97 neboli binárně `01100001` a kódy následujících znaků budou vždy o 1
-více, neboli kód znaku `b` bude 98 reprezentovaný `01100010`.
+**[7 bodů]** Proveďte substituci slova `“ahoj”` pomocí Rijndaelova substitučního boxu. Pro kódování písmen použijte
+osmibitové řetězce, například první znak `a` kódujte číslem 97 neboli binárně `01100001` a kódy následujících znaků
+budou vždy o 1 více, neboli kód znaku `b` bude 98 reprezentovaný `01100010`.
 
 ### ✅ [Úloha 10](./ukol10)
 
-**[9 bodů]** Naprogramujte jednoduchou RSA šifru, ve které jednotlivé kroky udělejte jednodušeji, například výběr veřejného
-klíče proveďte hladově (výběr nesoudělných a výběr klíče mezi) a inverzi a tím stanovení klíče proveďte pomocí Eulerovy
-věty. Ověřte si funkčnost kódování a dekódování pomocí jednoduchého příkladu.
+**[9 bodů]** Naprogramujte jednoduchou RSA šifru, ve které jednotlivé kroky udělejte jednodušeji, například výběr
+veřejného klíče proveďte hladově (výběr nesoudělných a výběr klíče mezi) a inverzi a tím stanovení klíče proveďte pomocí
+Eulerovy věty. Ověřte si funkčnost kódování a dekódování pomocí jednoduchého příkladu.
 
 ### ✅ [Úloha 11](./ukol11)
 
